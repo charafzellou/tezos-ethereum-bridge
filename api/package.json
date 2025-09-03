@@ -1,0 +1,26 @@
+{
+    "name": "tezos-eth-bridge-api",
+    "description": "API service for Tezos-Ethereum bridge",
+    "version": "1.0.0",
+    "private": true,
+    "author": "Charaf ZELLOU",
+    "license": "AGPL-3.0-only",
+    "main": "dist/server.js",
+    "scripts": {
+        "dev": "ts-node src/server.ts",
+        "build": "tsc",
+        "start": "node dist/server.js"
+    },
+    "dependencies": {
+        "@taquito/taquito": "^21.0.2",
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "web3": "^4.16.0"
+    },
+    "devDependencies": {
+        "@types/express": "^5.0.0",
+        "@types/node": "^22.13.1",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.7.3"
+    }
+}

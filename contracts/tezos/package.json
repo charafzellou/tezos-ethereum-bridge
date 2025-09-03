@@ -1,0 +1,10 @@
+{
+  "name": "tezos-eth-bridge-tezos-contracts",
+  "description": "Tezos contracts for Tezos-Ethereum bridge",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Charaf ZELLOU",
+  "license": "AGPL-3.0-only",
+  "main": "index.js",
+  "scripts": {}
+}
